@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>clouser</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+  <h1>clouser </h1>
+  <h3>q1</h3>
+     <pre>
+    function counter(){
+    var counter = 0;
+
+    function IncreaseCounter() {
+        return counter += 1;
+    };
+
+    return IncreaseCounter;
+}
+
+var counter = counter();
+alert(counter());
+alert(counter());
+alert(counter());
+alert(counter());
+     </pre>
+     output 
+     1
+     2
+     3
+     4
+     <br>
+
+    Q2
+    <pre>
+    let count = 0;
+(function () {
+  if (count === 0) {
+    let count = 1;
+    console.log(count); // What is logged?
+  }
+  console.log(count); // What is logged?
+})();
+
+    </pre>
+     output 
+     0
+     1
+     
+     <br>
+     <br>
+
+     Q3
+     <pre>
+        Write a code to calculate area of a rectangle using inner function.
+         In this case outer function should accept parameter length and
+          inner function should accept parameter breadth.
+ 
+     </pre>
+     function lenfun(l){
+        function widfun(b){
+          return l*b
+        } consol.log(widfun(33))
+      }lenfun(33)
+      
+      <br>
+      Q2
+      <pre>
+         Write a code to calculate area of a rectangle using inner function.
+          In this case outer function should accept parameter length and
+           inner function should accept parameter breadth.
+  
+      </pre>
+      function lenfun(l){
+         function widfun(b){
+           return l*b
+         } consol.log(widfun(33))
+       }lenfun(33)
+       
+       <br>
+
+
+</body>
+</html>
